@@ -192,7 +192,6 @@ function Main() {
                     <div className="text-slate-500">
                       <div className="mt-1">
                         Overview dashboard API Intergrations for charts.
-                       
                       </div>
                       <div className="flex mt-2">
                       

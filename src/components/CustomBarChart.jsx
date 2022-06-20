@@ -186,7 +186,7 @@ const GradientColors2 = () => {
 const CustomBarChart = () => {
 
   return (
-    <div className=" w-full h-96 bg-bg rounded-lg py-4 sm:py-8 px-0 sm:px-6 custom-bar-chart">
+    <div className=" w-full h-96 bg-bg rounded-lg py-4 sm:py-8 custom-bar-chart">
       <div>
         <h2 className="text-white font-semibold text-2xl pl-4 sm:pl-8 m-0 font-neuePlak">BTC Minned</h2>
       </div>
