@@ -101,8 +101,8 @@ body {
   -ms-flex-align: center;
   align-items: center;
   grid-auto-columns: 1fr;
-  grid-column-gap: 0.75rem;
-  grid-row-gap: 0.75rem;
+  grid-column-gap: 0.50rem;
+  grid-row-gap: 0.50rem;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
@@ -180,7 +180,7 @@ body {
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-    animation: marquee 50s linear infinite reverse;
+  /* animation: marquee 50s linear infinite reverse; */
 }
 .marquee-track:hover {
 -moz-animation-play-state: paused;

@@ -60,10 +60,7 @@ const MyGraph = ({ data }) => {
           <defs>
             <GradientColors3 />
           </defs> 
-          <Tooltip
-            itemStyle={{ color: "", backgroundColor: "", borderRadius: "30px" }}
-            contentStyle={{ backgroundColor: "" }}
-          />
+          <Tooltip contentStyle={{background: "#0b0d12", border: "0.5px solid #767676", borderRadius: "10px"}} cursor={{ fill: 'rgba(245, 238, 254, 0.233)' }} />
           <XAxis dataKey="name" tick={{ fill: "#17ab9c" }} stroke="white" />
           <YAxis tick={{ fill: "#17ab9c" }} stroke="#EEEEEE" />
           <Area

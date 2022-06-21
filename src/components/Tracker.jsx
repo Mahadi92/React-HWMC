@@ -77,7 +77,7 @@ const getColor = (changePercent) => {
     // console.log(Object.keys(trackerData))
   return (
     <div className="w-full h-32">
-      <div className="crypto-marquee">
+      <div className="crypto-marquee rounded-lg">
         <div className="marquee-track">
           <div className="marquee-item">
           {
