@@ -180,7 +180,7 @@ body {
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  /* animation: marquee 50s linear infinite reverse; */
+  animation: marquee 50s linear infinite reverse;
 }
 .marquee-track:hover {
 -moz-animation-play-state: paused;
